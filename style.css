@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    width: 710px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1a1919;
+    border-radius: 20%;
+    padding: 30px;
+    padding-top: 100px;
+    gap: 15px;
+    align-items: flex-end;
+    /* opacity: 0;; */
+   
+  
+   
+
+}
+.score,
+.time{
+    display: flex;
+   
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+   background-color: #331709;
+    cursor:pointer;
+
+  
+    border-radius: 50%;
+}
+.mole{
+    background-image: url(./stickers-animals-mole-100219.gif);
+    background-size: cover;
+    background-position:top;
+    z-index: 10;
+    
+}
+.zole{
+    background-image: url(plus.gif);
+    background-position: center;
+background-size: contain;
+
+}
+
+
+
+.scoreboard{
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 130px;
+    margin-left: 60px;
+    color: #fff;
+    gap: 30px;
+  
+    
+  
+    font-family: 'Bungee', cursive;
+    
+   
+}
+
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+.start_button {
+  
+  height: 80px;
+  width: 190px;
+  color: #fff;
+  border-radius: 80px;
+  background: #ED5565;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Bungee', cursive;
+}
+.new_game{
+  
+    height: 80px;
+    width: 220px;
+    color: #fff;
+    border-radius: 80px;
+    background: #ED5565;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Bungee', cursive;
+   
+    
+}
+
+
+p{
+    font-size: 40px;
+    color: #ED5565;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.game_over{
+    margin-bottom: 250;
+   
+    height: 80px;
+    width: 300px;
+    color: #fff;
+    border-radius: 80px;
+    background: #7b55ed;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    
+  
+}
+.gameOver{
+    width: 710px;
+    height: 500px;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    background-color: #1a1919;
+    border-radius: 80px;
+    margin-top: 130px;
+
+}
+
+.point1{ 
+
+    color: rgb(27, 240, 16);
+    transform: translateY(-15%); 
+    font-size: 70px;
+
+}
