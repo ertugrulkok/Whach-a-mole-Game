@@ -8,7 +8,7 @@ const tom4 = new Audio("miss.wav");
 
 let result = 0;
 let hitPosition;
-let curretTime = 30;
+let curretTime = 60;
 let timerId = null;
 
 function music() {
